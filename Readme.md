@@ -14,7 +14,7 @@ xiaokanghub的Frida-Android-unpack https://github.com/xiaokanghub/Frida-Android-
 
 对脚本功能做了优化，适配了更多平台，加强了对于各安卓版本的通用性
 
-目前测试过Android4.4(貌似frida对Android4.4兼容并不好) Android5.1 Android6.0 Android7.1
+目前测试过Android4.4(貌似frida对Android4.4兼容并不好) Android5.1 Android6.0 Android7.1到Android10
 
 0x0 frida环境搭建
 ----
