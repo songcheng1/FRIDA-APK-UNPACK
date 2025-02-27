@@ -35,7 +35,7 @@ function getFunctionName(){
 
     // Android 4: hook dvmDexFileOpenPartial
     // Android 5: hook OpenMemory
-    // after Android 5: hook OpenCommon
+    // after Android 5-10: hook OpenCommon
     if(getAndroidVersion() > 4){ // android 5 and later version
         var artExports =  Module.enumerateExportsSync("libart.so");
         for(i = 0; i< artExports.length; i++){
